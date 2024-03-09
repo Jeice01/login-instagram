@@ -242,3 +242,28 @@
       margin-bottom: 10px;
     }
   }
+
+  /* Tablet */
+  @media (max-width: 768px) {
+    #main-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #banner-container,
+    #form-container {
+      width: 100%;
+      text-align: center;
+    }
+  
+    #banner-container img {
+      margin-right: 0;
+    }
+  
+    #form-container #form-box {
+      width: 80%;
+    }
+  
+
+  }
+  
